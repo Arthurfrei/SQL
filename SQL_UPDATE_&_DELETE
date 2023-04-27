@@ -19,3 +19,7 @@ UPDATE curso SET nome_curso = 'Redes de computadores' WHERE cod_curso = 7
 UPDATE curso SET sigla = 'RC' WHERE cod_curso = 7
 
 DELETE FROM curso WHERE cod_curso = 7
+
+SET FOREIGN_KEY_checks = 0
+
+DELETE FROM curso WHERE cod_curso = 1
